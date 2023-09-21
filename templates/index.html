@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Flask</title>
+</head>
+<body>
+    <h1>Render HTML di Flask</h1>
+    Nama Saya : {{ nama }}, Umur saya {{ umur }}.
+
+    
+    {% for buah in list %}
+    
+    <p> {{buah}} </p>
+
+    {% endfor %}
+
+
+
+    {%  for key,value in dict.items() %}
+
+    {{key}} : {{value}}
+
+    {% endfor %}
+
+</body>
+</html>
